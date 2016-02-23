@@ -2,3 +2,5 @@ Today I learned that if color, such as red, green, blue, is a feature of one pie
 we can also use real number to represent this feature.
 Instead of one feature 'Color', we can create three binary features, such as isRed, isGreen, isBlue, 
 whose values can only be 0(no) or 1(yes).
+I have got a primary understanding of the "Mahalanobis distance" 
+(http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
