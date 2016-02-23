@@ -1,0 +1,4 @@
+Today I learned that if color, such as red, green, blue, is a feature of one piece of data, 
+we can also use real number to represent this feature.
+Instead of one feature 'Color', we can create three binary features, such as isRed, isGreen, isBlue, 
+whose values can only be 0(no) or 1(yes).
