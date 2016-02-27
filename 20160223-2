@@ -1,0 +1,5 @@
+Today I learned that you can redirect the output of print to 
+another file.
+Such as:
+fi = open("file", "w")
+print >> fi, "I love Wangning"
