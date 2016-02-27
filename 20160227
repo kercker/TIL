@@ -1,0 +1,4 @@
+Today I learned we can use "dictionary-based string formatting" in Python.
+list = {"name":"Wangning", "age":28}
+print "%(name)s's age is %(age)d." % list
+output: Wangning's age is 28
