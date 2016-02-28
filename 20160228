@@ -5,4 +5,4 @@ by a web service.
 
 2. that you can load module dynamicly in Python with the 
 function __import__.
-Such as: sys = __import__(sys)
+Such as: sys = __import__("sys")
