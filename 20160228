@@ -20,3 +20,5 @@ b.next() #3
 for i in b:
   ...
 http://www.diveintopython.net/dynamic_functions/stage6.html
+
+4. that python has a timeit module.
