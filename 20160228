@@ -22,3 +22,8 @@ for i in b:
 http://www.diveintopython.net/dynamic_functions/stage6.html
 
 4. that python has a timeit module.
+
+5. that you can disassemble one function into python's
+intermediate representation through dis.dis from module
+dis.
+Such as: dis.dis(one_function)
