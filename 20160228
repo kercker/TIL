@@ -6,3 +6,17 @@ by a web service.
 2. that you can load module dynamicly in Python with the 
 function __import__.
 Such as: sys = __import__("sys")
+
+3. that you can use yield (generators) to implement 
+lazy evaluation.
+Such as:
+def f(x):
+  while 1:
+    yield x
+    x += 1
+b = f(2)
+b.next() #2
+b.next() #3
+for i in b:
+  ...
+http://www.diveintopython.net/dynamic_functions/stage6.html
